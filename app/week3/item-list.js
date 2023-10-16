@@ -73,7 +73,7 @@ const ItemList = () => {
     };
 
     return (
-        <div className="flex flex-wrap">
+        <div>
             <Item
                 name={item1.name}
                 quantity={item1.quantity}

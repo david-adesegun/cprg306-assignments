@@ -6,9 +6,13 @@ export default function Home() {
     <div>
       <h1>CPRG 306: Web Development 2 - Assignments</h1>
       <StudentInfo />
-      <Link href="/week2">Week 2 </Link>
-      <Link href="/week3">Week 3 </Link>
-      <Link href="/week4">Week 4</Link>
+      <div className="flex flex-col text-blue-500">
+        <Link href="/week2" className=" hover:text-blue-800">Week 2</Link>
+        <Link href="/week3" className=" hover:text-blue-800">Week 3</Link>
+        <Link href="/week4" className=" hover:text-blue-800">Week 4</Link>
+        <Link href="/week5" className=" hover:text-blue-800">Week 5</Link>
+        <Link href="/week6" className=" hover:text-blue-800">Week 6</Link>
+      </div>
     </div>
   );
 }
